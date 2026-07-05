@@ -9,3 +9,5 @@
  * @dependencies @comfortcss/tokens
  */
 
+@import "./core/container.css";
+@import "./core/template.css";
