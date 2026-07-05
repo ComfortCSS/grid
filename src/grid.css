@@ -1,0 +1,18 @@
+/**
+ * @package @comfortcss/grid
+ * @version 0.1.0
+ * @license MIT
+ * @author ComfortCSS
+ *
+ * @description
+ *   Complete grid utility system.
+ *   Aggregates all modules in logical order.
+ *
+ * @dependencies @comfortcss/tokens
+ */
+
+@import "./core/container.css";
+@import "./core/template.css";
+@import "./core/gap.css";
+@import "./core/alignment.css";
+@import "./core/placement.css";

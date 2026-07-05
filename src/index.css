@@ -1,0 +1,11 @@
+/**
+ * @package @comfortcss/grid
+ * @version 0.1.0
+ * @license MIT
+ * @author ComfortCSS
+ *
+ * @description
+ *   Complete grid utility system.
+ */
+
+@import "./grid.css";

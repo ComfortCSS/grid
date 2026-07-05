@@ -1,0 +1,29 @@
+/**
+ * @package @comfortcss/grid
+ * @subpackage container
+ * @since 0.1.0
+ * @license MIT
+ * @author ComfortCSS
+ *
+ * @section container
+ * @description
+ *   Classes that create grid containers.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/display
+ */
+
+@layer grid {
+    /**
+     * Block-level grid container.
+     */
+    :where(.grid) {
+        display: grid;
+    }
+
+    /**
+     * Inline-level grid container.
+     */
+    :where(.inline-grid) {
+        display: inline-grid;
+    }
+}
