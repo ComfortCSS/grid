@@ -1,0 +1,75 @@
+/**
+ * @package @comfortcss/grid
+ * @subpackage container
+ * @since 0.1.0
+ * @license MIT
+ * @author ComfortCSS
+ * @section alignment
+ * @description
+ *   Aligns grid items within their cells and aligns the grid itself
+ *   within the container.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+ */
+
+@layer grid {
+    /**
+     * justify-items: align items along the row axis.
+     */
+    :where(.justify-items-start)   { justify-items: start; }
+    :where(.justify-items-end)     { justify-items: end; }
+    :where(.justify-items-center)  { justify-items: center; }
+    :where(.justify-items-stretch) { justify-items: stretch; }
+
+    /**
+     * align-items: align items along the column axis.
+     */
+    :where(.align-items-start)   { align-items: start; }
+    :where(.align-items-end)     { align-items: end; }
+    :where(.align-items-center)  { align-items: center; }
+    :where(.align-items-stretch) { align-items: stretch; }
+
+    /**
+     * place-items: shorthand for align-items and justify-items.
+     */
+    :where(.place-items-start)   { place-items: start; }
+    :where(.place-items-end)     { place-items: end; }
+    :where(.place-items-center)  { place-items: center; }
+    :where(.place-items-stretch) { place-items: stretch; }
+
+    /**
+     * justify-content: align the grid itself along the row axis.
+     */
+    :where(.justify-content-start)         { justify-content: start; }
+    :where(.justify-content-end)           { justify-content: end; }
+    :where(.justify-content-center)        { justify-content: center; }
+    :where(.justify-content-stretch)       { justify-content: stretch; }
+    :where(.justify-content-space-between) { justify-content: space-between; }
+    :where(.justify-content-space-around)  { justify-content: space-around; }
+    :where(.justify-content-space-evenly)  { justify-content: space-evenly; }
+
+    /**
+     * align-content: align the grid itself along the column axis.
+     */
+    :where(.align-content-start)         { align-content: start; }
+    :where(.align-content-end)           { align-content: end; }
+    :where(.align-content-center)        { align-content: center; }
+    :where(.align-content-stretch)       { align-content: stretch; }
+    :where(.align-content-space-between) { align-content: space-between; }
+    :where(.align-content-space-around)  { align-content: space-around; }
+    :where(.align-content-space-evenly)  { align-content: space-evenly; }
+
+    /**
+     * place-content: shorthand for align-content and justify-content.
+     */
+    :where(.place-content-start)         { place-content: start; }
+    :where(.place-content-end)           { place-content: end; }
+    :where(.place-content-center)        { place-content: center; }
+    :where(.place-content-stretch)       { place-content: stretch; }
+    :where(.place-content-space-between) { place-content: space-between; }
+    :where(.place-content-space-around)  { place-content: space-around; }
+    :where(.place-content-space-evenly)  { place-content: space-evenly; }
+}
