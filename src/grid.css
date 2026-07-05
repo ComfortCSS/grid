@@ -1,6 +1,8 @@
 /**
  * @package @comfortcss/grid
  * @version 0.1.0
+ * @license MIT
+ * @author ComfortCSS
  *
  * @description
  *   Complete grid utility system.
@@ -11,3 +13,4 @@
 
 @import "./core/container.css";
 @import "./core/template.css";
+@import "./core/gap.css";
