@@ -21,6 +21,15 @@ Add this to your main CSS file:
 
 Then use classes in your HTML.
 
+## What’s inside
+
+| Class | Description|
+|-------|------------|
+| `.grid` | Block-level grid container |
+| `.inline-grid` | Inline-level grid container |
+
+### Container
+
 ## Dependencies
 
 - [`@comfortcss/tokens`](https://github.com/ComfortCSS/tokens)
